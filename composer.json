@@ -1,0 +1,25 @@
+{
+    "name": "intergalactic/api-bundle",
+    "description": "API Utilities for Symfony",
+    "type": "symfony-bundle",
+    "license": "Hipocratic License",
+    "authors": [
+        {
+            "name": "Zan Baldwin",
+            "email": "hello@zanbaldwin.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "ext-ctype": "*",
+        "ext-json": "*",
+        "darsyn/unboxer": "^0.2",
+        "ramsey/uuid": "^3.8",
+        "symfony/http-foundation": "^4.3",
+        "symfony/twig-bundle": "^4.3",
+        "symfony/web-link": "^4.3",
+        "symfony/yaml": "^4.3",
+        "willdurand/negotiation": "^2.3"
+    },
+    "minimum-stability": "stable"
+}
